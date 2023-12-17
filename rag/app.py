@@ -33,7 +33,7 @@ all_splits = text_splitter.split_documents(docs)
 # print(len(all_splits[0].page_content))
 # print(all_splits[10].metadata)
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
 
 # Done with Indexing
