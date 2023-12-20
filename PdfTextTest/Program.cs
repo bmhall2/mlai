@@ -5,8 +5,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var outputPath = "/mnt/c/Learning/mlai/PdfTextTest/text/";
-        var files = Directory.GetFiles("/mnt/c/Learning/mlai/PdfTextTest/pdfs/");
+        var outputPath = "/mnt/c/Users/Ben Hall/code/mlai/PdfTextTest/text/";
+        var files = Directory.GetFiles("/mnt/c/Users/Ben Hall/code/mlai/PdfTextTest/pdfs/");
         foreach (var file in files)
         {
             var fileName = file.Split("/").Last().Replace(".pdf", ".txt");

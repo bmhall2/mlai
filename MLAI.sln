@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mlnet", "mlnet\mlnet.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientDescent", "GradientDescent\GradientDescent.csproj", "{63210CA9-45C5-471A-B365-A1D8BED14053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Llama", "Llama\Llama.csproj", "{70C81C10-089B-4B00-8F61-1E9F822AB574}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LlamaTestClient", "LlamaTestClient\LlamaTestClient.csproj", "{F81FBA73-E5FE-4F01-BDF9-056754376E37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTextTest", "PdfTextTest\PdfTextTest.csproj", "{1339B736-3D91-4C9F-AC56-FC897F075115}"
