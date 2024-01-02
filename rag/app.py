@@ -60,5 +60,6 @@ if __name__ == "__main__":
 
         for chunk in rag_chain.stream(query):
             print(chunk, end="", flush=True)
+        print()
     else:
         print("No local results")
